@@ -1,6 +1,0 @@
-__pycache__/
-*.pyc
-nmapx_report_*.txt
-.venv/
-.idea/
-.vscode/
