@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="NMAP-X - Professional Nmap Scanner by Ethical Ninja">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04070b"/><stop offset="1" stop-color="#0b1824"/></linearGradient>
+<linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#00ff9c"><animate attributeName="stop-color" values="#00ff9c;#00d8ff;#00ff9c" dur="4s" repeatCount="indefinite"/></stop>
+<stop offset="1" stop-color="#00d8ff"><animate attributeName="stop-color" values="#00d8ff;#00ff9c;#00d8ff" dur="4s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#0e2a25" stroke-width="1"/></pattern>
+<clipPath id="tc0"><rect x="332" y="166" height="32" width="0"><animate attributeName="width" values="0;330.0;330.0;0;0" keyTimes="0.000;0.130;0.290;0.325;1.000" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="tc1"><rect x="332" y="166" height="32" width="0"><animate attributeName="width" values="0;0;462.0;462.0;0;0" keyTimes="0.000;0.333;0.463;0.623;0.658;1.000" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="tc2"><rect x="332" y="166" height="32" width="0"><animate attributeName="width" values="0;0;435.6;435.6;0;0" keyTimes="0.000;0.667;0.797;0.957;0.992;1.000" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<rect width="1000" height="300" fill="url(#bg)"/>
+<rect width="1000" height="300" fill="url(#grid)" opacity="0.55"/>
+<rect x="0" y="0" width="1000" height="3" fill="#00ff9c" opacity="0.12"><animate attributeName="y" from="-3" to="300" dur="5s" repeatCount="indefinite"/></rect>
+<rect x="0" y="296" width="1000" height="4" fill="url(#ttl)"/>
+<g>
+<circle cx="150" cy="150" r="112" fill="#06120f" stroke="#14532d" stroke-width="2"/>
+<circle cx="150" cy="150" r="80" fill="none" stroke="#14532d"/>
+<circle cx="150" cy="150" r="48" fill="none" stroke="#14532d"/>
+<circle cx="150" cy="150" r="18" fill="none" stroke="#14532d"/>
+<line x1="38" y1="150" x2="262" y2="150" stroke="#14532d"/>
+<line x1="150" y1="38" x2="150" y2="262" stroke="#14532d"/>
+<g>
+<path d="M150 150 L262.0 150.0 A112 112 0 0 0 260.6 132.5 Z" fill="#00ff9c" opacity="0.55"/>
+<path d="M150 150 L260.6 132.5 A112 112 0 0 0 256.5 115.4 Z" fill="#00ff9c" opacity="0.38"/>
+<path d="M150 150 L256.5 115.4 A112 112 0 0 0 249.8 99.2 Z" fill="#00ff9c" opacity="0.22"/>
+<path d="M150 150 L249.8 99.2 A112 112 0 0 0 240.6 84.2 Z" fill="#00ff9c" opacity="0.09"/>
+<line x1="150" y1="150" x2="262" y2="150" stroke="#00ff9c" stroke-width="2.5" filter="url(#glow)"/>
+<animateTransform attributeName="transform" type="rotate" from="0 150 150" to="360 150 150" dur="4s" repeatCount="indefinite"/>
+</g>
+<circle cx="211.3" cy="201.4" r="4" fill="#00ff9c" opacity="0.05" filter="url(#glow)"><animate attributeName="opacity" from="1" to="0.05" dur="4s" begin="0.44s" repeatCount="indefinite"/></circle>
+<circle cx="131.2" cy="201.7" r="4" fill="#00ff9c" opacity="0.05" filter="url(#glow)"><animate attributeName="opacity" from="1" to="0.05" dur="4s" begin="1.22s" repeatCount="indefinite"/></circle>
+<circle cx="58.2" cy="174.6" r="4" fill="#00ff9c" opacity="0.05" filter="url(#glow)"><animate attributeName="opacity" from="1" to="0.05" dur="4s" begin="1.83s" repeatCount="indefinite"/></circle>
+<circle cx="92.7" cy="109.8" r="4" fill="#00ff9c" opacity="0.05" filter="url(#glow)"><animate attributeName="opacity" from="1" to="0.05" dur="4s" begin="2.39s" repeatCount="indefinite"/></circle>
+<circle cx="141.3" cy="50.4" r="4" fill="#00ff9c" opacity="0.05" filter="url(#glow)"><animate attributeName="opacity" from="1" to="0.05" dur="4s" begin="2.94s" repeatCount="indefinite"/></circle>
+<circle cx="184.5" cy="121.1" r="4" fill="#00ff9c" opacity="0.05" filter="url(#glow)"><animate attributeName="opacity" from="1" to="0.05" dur="4s" begin="3.56s" repeatCount="indefinite"/></circle>
+<circle cx="236.7" cy="134.7" r="4" fill="#00ff9c" opacity="0.05" filter="url(#glow)"><animate attributeName="opacity" from="1" to="0.05" dur="4s" begin="3.89s" repeatCount="indefinite"/></circle>
+<circle cx="150" cy="150" r="4" fill="#00ff9c" filter="url(#glow)"/>
+</g>
+<text x="330" y="122" font-size="88" font-weight="700" font-family="'Courier New', Consolas, 'DejaVu Sans Mono', monospace" fill="url(#ttl)" filter="url(#glow)" letter-spacing="6">NMAP-X</text>
+<rect x="334" y="136" width="0" height="3" fill="url(#ttl)"><animate attributeName="width" values="0;545;545" keyTimes="0;0.2;1" dur="6s" repeatCount="indefinite"/></rect>
+<text x="332" y="190" font-size="22" fill="#cfd8e3" font-family="'Courier New', Consolas, 'DejaVu Sans Mono', monospace" textLength="330.0" lengthAdjust="spacingAndGlyphs" clip-path="url(#tc0)">Professional Nmap Scanner</text>
+<text x="332" y="190" font-size="22" fill="#cfd8e3" font-family="'Courier New', Consolas, 'DejaVu Sans Mono', monospace" textLength="462.0" lengthAdjust="spacingAndGlyphs" clip-path="url(#tc1)">16 scan profiles: Basic to Advanced</text>
+<text x="332" y="190" font-size="22" fill="#cfd8e3" font-family="'Courier New', Consolas, 'DejaVu Sans Mono', monospace" textLength="435.6" lengthAdjust="spacingAndGlyphs" clip-path="url(#tc2)">CLI + GUI  |  Kali Linux &amp; Termux</text>
+<text x="332" y="250" font-size="16" fill="#6b7c8f" font-family="'Courier New', Consolas, 'DejaVu Sans Mono', monospace">by <tspan fill="#00ff9c" font-weight="700">Ethical Ninja</tspan>  |  github.com/ethicalninja1
+<animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/></text>
+</svg>
